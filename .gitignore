@@ -125,7 +125,7 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah Test files
+# Chutzpah test files
 _Chutzpah*
 
 # Visual C++ cache files
@@ -689,7 +689,7 @@ Cargo.lock
 
 # Files built by Visual Studio
 
-# Chutzpah Test files
+# Chutzpah test files
 
 # Visual C++ cache files
 
