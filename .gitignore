@@ -74,7 +74,7 @@ bld/
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 
-# MSTest test Results
+# MSTest test_hackerrank Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
@@ -125,7 +125,7 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah test files
+# Chutzpah test_hackerrank files
 _Chutzpah*
 
 # Visual C++ cache files
@@ -559,7 +559,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test_hackerrank / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -675,7 +675,7 @@ Cargo.lock
 
 # Visual Studio 2017 auto generated files
 
-# MSTest test Results
+# MSTest test_hackerrank Results
 
 # NUNIT
 
@@ -689,7 +689,7 @@ Cargo.lock
 
 # Files built by Visual Studio
 
-# Chutzpah test files
+# Chutzpah test_hackerrank files
 
 # Visual C++ cache files
 
