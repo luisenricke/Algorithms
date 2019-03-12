@@ -1,11 +1,16 @@
+/**
+ * @author: Luis Villalobos
+ * @link: https://leetcode.com/problems/fibonacci-number/
+ * @number: 509
+ * @difficulty: easy
+ */
 
 fun fibonacci(number:Int):Int{
-    if(number == 0)
-        return 0
-    else if(number == 1)
-        return 1
-    else
-        return fibonacci(number - 1) + fibonacci(number - 2)
+    when (number) {
+        0 -> return 0
+        1 -> return 1
+        else -> return fibonacci(number - 1) + fibonacci(number - 2)
+    }
 }
 
 fun main(args: Array<String>) {
