@@ -1,7 +1,14 @@
+/**
+ * @author: Luis Villalobos
+ * @link: https://www.hackerrank.com/challenges/a-very-big-sum/problem
+ * @subdomain: warmup
+ * @difficulty: easy
+ */
+
 fun aVeryBigSum(array: Array<Long>): Long {
-    var result:Long = 0
-    for (count in 0..array.size-1)
-        result+=array[count]
+    var result: Long = 0
+    for (count in 0..array.size - 1)
+        result += array[count]
     return result
 }
 

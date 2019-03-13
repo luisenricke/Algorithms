@@ -10,7 +10,7 @@ fun simpleArraySum(array: Array<Int>): Int {
     for (item in array)
         try {
             result += item
-        }catch (e: NumberFormatException){
+        } catch (e: NumberFormatException) {
             println("Input isn't number")
         }
     return result
@@ -18,10 +18,10 @@ fun simpleArraySum(array: Array<Int>): Int {
 
 fun main() {
 
-        println("The lenght of array: ")
-        var lenghtOfArray: Int = readLine()!!.toInt()
-        println("Numbers of array: ")
-        var arrayint = Array<Int>(lenghtOfArray) { readLine()!!.toInt() }
-        println("The sum of array is: ${simpleArraySum(arrayint)}")
+    println("The lenght of array: ")
+    var lenghtOfArray: Int = readLine()!!.toInt()
+    println("Numbers of array: ")
+    var arrayint = Array<Int>(lenghtOfArray) { readLine()!!.toInt() }
+    println("The sum of array is: ${simpleArraySum(arrayint)}")
 
 }

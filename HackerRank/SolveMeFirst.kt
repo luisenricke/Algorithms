@@ -6,9 +6,9 @@
  */
 
 fun solveMeFirst(a: Int, b: Int): Int {
-    return a+b
+    return a + b
 }
 
 fun main(args: Array<String>) {
-    println(solveMeFirst(readLine()!!.toInt(),readLine()!!.toInt()))
+    println(solveMeFirst(readLine()!!.toInt(), readLine()!!.toInt()))
 }
