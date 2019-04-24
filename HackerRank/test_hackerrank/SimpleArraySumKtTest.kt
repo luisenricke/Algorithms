@@ -1,11 +1,10 @@
 package test_hackerrank
 
-import org.junit.jupiter.api.Test
-
-import org.junit.jupiter.api.Assertions.*
+import org.junit.Test
 import simpleArraySum
 import java.io.IOException
 import java.lang.NumberFormatException
+import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 import kotlin.test.expect
 

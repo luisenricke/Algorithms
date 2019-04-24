@@ -1,9 +1,8 @@
 package test_leetcode
 
 import fibonacci
-import org.junit.jupiter.api.Test
-
-import org.junit.jupiter.api.Assertions.*
+import org.junit.Test
+import kotlin.test.assertEquals
 
 internal class FibonacciKtTest {
 

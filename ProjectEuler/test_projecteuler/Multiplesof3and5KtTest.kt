@@ -1,9 +1,8 @@
 package test_projecteuler
 
 import multiplesOf3And5
-import org.junit.jupiter.api.Test
-
-import org.junit.jupiter.api.Assertions.*
+import org.junit.Test
+import kotlin.test.assertEquals
 
 internal class Multiplesof3and5KtTest {
 

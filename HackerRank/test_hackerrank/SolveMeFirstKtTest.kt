@@ -1,6 +1,6 @@
 package test_hackerrank
 
-import org.junit.jupiter.api.Test
+import org.junit.Test
 import solveMeFirst
 import kotlin.test.assertEquals
 
