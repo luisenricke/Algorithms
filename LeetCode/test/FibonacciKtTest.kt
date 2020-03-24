@@ -1,10 +1,8 @@
-package test_leetcode
-
-import fibonacci
 import org.junit.Test
-import kotlin.test.assertEquals
 
-internal class FibonacciKtTest {
+import org.junit.Assert.*
+
+class FibonacciKtTest {
 
     @Test
     fun fibonacci1() {
