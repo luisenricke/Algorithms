@@ -1,0 +1,6 @@
+//rootProject.name = 'Algorithms'
+
+include 'HackerRank'
+include 'LeetCode'
+include 'ProjectEuler'
+
