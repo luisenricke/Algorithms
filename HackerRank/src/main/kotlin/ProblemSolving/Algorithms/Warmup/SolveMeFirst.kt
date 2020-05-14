@@ -1,9 +1,4 @@
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/solve-me-first/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+package ProblemSolving.Algorithms.Warmup
 
 fun solveMeFirst(a: Int, b: Int): Int {
     return a + b

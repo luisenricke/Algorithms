@@ -1,12 +1,7 @@
+package ProblemSolving.Algorithms.Warmup
+
 import java.math.BigInteger
 import java.util.*
-
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/mini-max-sum/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
 
 fun miniMaxSum(arr: Array<Int>): Unit {
     var aux: BigInteger = 0.toBigInteger()

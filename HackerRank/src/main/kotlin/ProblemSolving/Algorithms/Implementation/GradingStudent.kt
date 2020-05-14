@@ -1,14 +1,9 @@
+package ProblemSolving.Algorithms.Implementation
+
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.ranges.*
 import kotlin.text.*
-
-/*
- * Complete the 'gradingStudents' function below.
- *
- * The function is expected to return an INTEGER_ARRAY.
- * The function accepts INTEGER_ARRAY grades as parameter.
- */
 
 fun gradingStudents(grades: Array<Int>): Array<Int> {
     for (index in grades.indices) {

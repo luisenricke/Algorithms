@@ -1,9 +1,4 @@
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/simple-array-sum/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+package ProblemSolving.Algorithms.Warmup
 
 fun simpleArraySum(array: Array<Int>): Int {
     var result = 0

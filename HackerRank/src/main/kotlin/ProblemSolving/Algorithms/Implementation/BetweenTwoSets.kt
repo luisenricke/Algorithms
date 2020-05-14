@@ -1,12 +1,5 @@
-/*
- * Complete the 'getTotalX' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER_ARRAY a
- *  2. INTEGER_ARRAY b
- */
-// Idea from: https://www.hackerrank.com/challenges/between-two-sets/forum/comments/431162
+package ProblemSolving.Algorithms.Implementation
+
 fun getTotalX(a: Array<Int>, b: Array<Int>): Int {
     val factors = mutableListOf<Int>()
     val list: Set<Int> = a.union(b.asList())

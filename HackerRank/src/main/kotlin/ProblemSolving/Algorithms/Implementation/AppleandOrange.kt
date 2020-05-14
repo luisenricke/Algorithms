@@ -1,9 +1,9 @@
+package ProblemSolving.Algorithms.Implementation
+
 import java.util.*
 import kotlin.collections.*
-import kotlin.sequences.*
 import kotlin.text.*
 
-// Complete the countApplesAndOranges function below.
 fun countApplesAndOranges(s: Int, t: Int, a: Int, b: Int, apples: Array<Int>, oranges: Array<Int>): Unit {
 
     var returnApples = apples.map { it + a }

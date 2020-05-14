@@ -1,11 +1,6 @@
-import java.util.*
+package ProblemSolving.Algorithms.Warmup
 
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/staircase/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+import java.util.*
 
 fun staircase(n: Int): Unit {
     for (row in 1..n) {

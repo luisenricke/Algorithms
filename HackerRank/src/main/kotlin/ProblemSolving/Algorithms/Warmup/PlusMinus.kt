@@ -1,12 +1,6 @@
-import java.lang.Exception
-import java.util.*
+package ProblemSolving.Algorithms.Warmup
 
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/plus-minus/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+import java.util.*
 
 fun main() {
 

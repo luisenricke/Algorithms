@@ -1,9 +1,4 @@
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/a-very-big-sum/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+package ProblemSolving.Algorithms.Warmup
 
 fun aVeryBigSum(array: Array<Long>): Long {
     var result: Long = 0
@@ -11,7 +6,6 @@ fun aVeryBigSum(array: Array<Long>): Long {
         result += array[count]
     return result
 }
-
 
 fun main() {
     var lenghtOfArray: Int = readLine()!!.toInt()

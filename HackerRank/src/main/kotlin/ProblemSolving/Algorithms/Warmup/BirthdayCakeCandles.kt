@@ -1,11 +1,6 @@
-import java.util.*
+package ProblemSolving.Algorithms.Warmup
 
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+import java.util.*
 
 fun birthdayCakeCandles(ar: Array<Int>): Int {
     var max = 0

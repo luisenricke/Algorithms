@@ -1,11 +1,6 @@
-import java.util.*
+package ProblemSolving.Algorithms.Warmup
 
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/diagonal-difference/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+import java.util.*
 
 fun diagonalDifference(matrix: Array<Array<Int>>): Int {
     var firstDiagonal = 0

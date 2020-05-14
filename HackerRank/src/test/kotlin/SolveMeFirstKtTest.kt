@@ -6,6 +6,6 @@ import org.junit.Assert.*
 
     @Test
     fun solveMeFirst() {
-       assertEquals(10, solveMeFirst(5, 5))
+       assertEquals(10, Algorithms.ProblemSolving.solveMeFirst(5, 5))
     }
 }

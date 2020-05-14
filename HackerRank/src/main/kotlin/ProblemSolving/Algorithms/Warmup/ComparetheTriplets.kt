@@ -1,9 +1,4 @@
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/compare-the-triplets/problem
- * @subdomain: warmup
- * @difficulty: easy
- */
+package ProblemSolving.Algorithms.Warmup
 
 fun compareTriplets(x: Array<Int>, y: Array<Int>): Array<Int> {
     var points: Array<Int> = arrayOf(0, 0)

@@ -1,11 +1,7 @@
-import java.time.LocalTime
-import java.time.format.DateTimeFormatter
-import java.time.format.FormatStyle
+package ProblemSolving.Algorithms.Warmup
+
 import java.util.*
 
-/*
- * Complete the timeConversion function below.
- */
 fun timeConversion(s: String): String {
     val checker = s.contains("AM")
     var returnValue = s.substring(0, s.length - 2)

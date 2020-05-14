@@ -1,9 +1,4 @@
-/**
- * @author: Luis Villalobos
- * @link: https://www.hackerrank.com/challenges/the-birthday-bar/problem
- * @subdomain: implementation
- * @difficulty: easy
- */
+package ProblemSolving.Algorithms.Implementation
 
 fun birthday(s: Array<Int>, d: Int, m: Int): Int {
     var portions = 0
